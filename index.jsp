@@ -25,7 +25,7 @@ request.setAttribute("tomcatExamplesUrl", "/examples/");
 %>
 <html lang="en">
     <head>
-        <title>HDS Next Demo<%=request.getServletContext().getServerInfo() %></title>
+        <title><%=request.getServletContext().getServerInfo() %></title>
         <link href="favicon.ico" rel="icon" type="image/x-icon" />
         <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
         <link href="tomcat.css" rel="stylesheet" type="text/css" />
